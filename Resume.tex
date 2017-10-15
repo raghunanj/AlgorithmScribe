@@ -1,0 +1,168 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.2 (3/28/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute 
+% (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Modified by:
+% Daniel L Marks <xleafr@gmail.com> 3/28/2015
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%-------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% You can have multiple style options the legal options ones are:
+%
+%   centered:	the name and address are centered at the top of the page 
+%				(default)
+%
+%   line:		the name is the left with a horizontal line then the address to
+%				the right
+%
+%   overlapped:	the section titles overlap the body text (default)
+%
+%   margin:		the section titles are to the left of the body text
+%		
+%   11pt:		use 11 point fonts instead of 10 point fonts
+%
+%   12pt:		use 12 point fonts instead of 10 point fonts
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[margin]{res}  
+
+% Default font is the helvetica postscript font
+\usepackage{helvet}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks, linkcolor=red, urlcolor=blue
+}
+% Increase text height
+\textheight=700pt
+
+\begin{document}
+
+%-------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%-------------------------------------------------------------------------------
+
+\name{\LARGE Raghunandana J Reddy} 
+% Note that addresses can be used for other contact information:
+% -phone numbers
+% -email addresses
+% -linked-in profile
+
+\address{rjayaramared@cs.stonybrook.edu\\+1 (631) 590 9685 \\ \url{https://www.linkedin.com/in/raghunanj/ }\\}
+\address{700 Health Sciences Dr \#927 \\ Stony Brook, NY 11790 \\ \url{https://github.com/raghunanj/ }}
+
+% Uncomment to add a third address
+%\address{Address 3 line 1\\Address 3 line 2\\Address 3 line 3}
+%-------------------------------------------------------------------------------
+
+\begin{resume}
+
+%-------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%-------------------------------------------------------------------------------
+\section{EDUCATION}
+\textbf{Stony Brook University}, NY  \hfill August 2017 - June 2019 \\
+{\sl MS in Computer Science}, Aug 2017 - June 2019 
+\begin{itemize}
+\item Coursework: Operating Systems, Computer Vision, Network Security, Analysis of Algorithms
+\end{itemize}
+\textbf{PES Institute of Technology}, Bengaluru, INDIA \hfill September 2011 - June 2015 \\
+{\sl BE in Computer Science},  \hfill GPA: 8.93/10.0 
+\begin{itemize}
+\item Coursework: Analysis and Design of Algorithms, Computer Networks, Unix Programming, Fuzzy logic, Compiler Design, Principles of Programming Languages. 
+\end{itemize}
+%-------------------------------------------------------------------------------
+ 
+%-------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+
+
+%-------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%-------------------------------------------------------------------------------
+\section{TECHNOLOGY \\ SKILLS} 
+
+\ C, Python, Java, R, NumPy, SciPy, Scikit-Learn, OpenCV, C++(moderate). \\
+\ IntelliJ, PyCharm, Git, MATLAB, Eclipse.\\
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%-------------------------------------------------------------------------------
+% Modify the format of each position
+\begin{format}
+\title{l}\employer{r}\\
+\dates{l}\location{r}\\
+\body\\
+\end{format}
+%-------------------------------------------------------------------------------
+\section{EXPERIENCE}
+
+\textbf{Member of Technical Staff-Tech Analyst 2} \hfill July 2015 - June 2017 \\
+Juniper Networks Inc, Bengaluru, INDIA
+\begin{itemize}
+\item Application development in IGNITION 14.7, a PaaS for data Management.
+\item Developed the designed enhancements in VESPER, a data cleansing initiative, 
+\item Technologies Used: Java, Python, SAP ABAP, JavaScript, VBScript. 
+\end{itemize} 
+
+\textbf{MTS Intern} \hfill January 2015 - June 2015 \\
+Juniper Networks Inc, Bengaluru, INDIA 
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Designed and developed the automation scenarios in VBScript and Python.
+\item Ensured that the performance and optimality of the designed solution are meeting a logical end by building a simulator using robot framework in Python.
+\end{itemize}
+ 
+\textbf{Research Intern} \hfill May 2014 - August 2014\\
+IIT Guwahati, INDIA
+\begin{itemize} 
+\item Indian Academy of Sciences' fellow advised by Dr. Partha Sarathi Mandal.
+\item Worked on Coverage Hole minimization in wireless sensor networks(WSNs) and developed a simulator for the algorithm we developed using frameworks in Python.
+\end{itemize} 
+
+
+\section{ACADEMIC PROJECTS}
+\textbf{Merging EventShop and AsterixDB}  \hfill Advised by Dr.Dinkar Sitaram
+\begin{itemize} 
+\item Fused EventShop - an OpenSource query processing application and AsterixDB, an OpenSource Big Data Management System.
+\item Ensured and demonstrated that the scale, diversity and complexity of data generated by EventShop can be handled optimally by AsterixDB compared to a traditional RDBMS.
+\end{itemize}
+
+\textbf{Big Data Parallelization using GPU}  \hfill Advised by Prof. Ashok Raman
+\begin{itemize} 
+\item Parallelized the mahout K-Means clustering algorithm to run it on a GPU system and hence improve the performance.
+\item Used aparapi library to convert java bytecode to opencl and wrote our own library in Jcuda to invoke the GPU kernel code.
+\end{itemize}
+
+
+\section{AWARDS AND HONORS}
+\begin{itemize}
+\item Received the MHRD merit scholarship by the Ministry of HRD, India during 2011-2015.
+\item Distinction award in the years 2013,2014,2015 at PES Institute of Technology. 
+\item Incredible Talent Team award in 2016-2017 at Juniper Networks Inc India.
+\end{itemize}
+
+
+%-------------------------------------------------------------------------------
+\end{resume}
+\end{document}
